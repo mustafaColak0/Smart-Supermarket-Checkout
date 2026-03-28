@@ -1,11 +1,19 @@
-🛒 Akıllı Süpermarket Kasası
-Bu proje, temel C# mantığını ve Nesne Yönelimli Programlama (OOP) prensiplerini anlamak için geliştirilmiştir.
+# 🛒 Akıllı Süpermarket Kasası
 
-✨ Özellikler
-Dinamik Ürün Arama: Dictionary yapısı ile hızlı erişim.
+Bu proje, C# programlama dili kullanılarak geliştirilmiş temel bir market otomasyon sistemidir. Nesne Yönelimli Programlama (OOP) mantığını ve temel algoritmaları anlamak amacıyla hazırlanmıştır.
 
-Bakiye Sistemi: Müşteri sınıfı üzerinden harcama kontrolü.
+## ✨ Özellikler
+* **Ürün Yönetimi:** `Dictionary` yapısı ile hızlı ürün ve fiyat takibi.
+* **Müşteri Sistemi:** Bakiye kontrolü ve ödeme simülasyonu.
+* **Vergi Hesaplama:** Otomatik %10 KDV uygulaması.
+* **Güvenlik Kontrolü:** Son tüketim tarihi (STT) hesaplama ve tarih geçmiş ürün uyarısı.
+* **Hata Yönetimi:** `try-catch` blokları ile hatalı veri girişlerinin engellenmesi.
 
-Güvenlik: Try-Catch blokları ile hatalı girişlerin engellenmesi.
+## 🛠️ Kullanılan Teknolojiler
+* **Dil:** C# (.NET)
+* **IDE:** Visual Studio / VS Code
 
-Hesaplama: Otomatik KDV (%10) ve STT kontrolü.
+## 🚀 Nasıl Çalıştırılır?
+1. Projeyi bilgisayarınıza indirin (Clone).
+2. Visual Studio ile `.sln` dosyasını veya `.cs` dosyasını açın.
+3. `F5` tuşuna basarak projeyi derleyin ve çalıştırın.
